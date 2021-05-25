@@ -1,0 +1,79 @@
+{
+  "name": "studio-kit",
+  "version": "8.3.0",
+  "description": "Made with DeckDeckGo, the web open source editor for presentations",
+  "homepage": "https://deckdeckgo.com",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack --mode production"
+  },
+  "author": {
+    "name": "David Dal Busco",
+    "email": "david.dalbusco@outlook.com",
+    "web": "https://daviddalbusco.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/deckgo/studio-kit.git"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^9.0.0",
+    "css-loader": "^5.2.5",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2",
+    "workbox-webpack-plugin": "^6.1.5"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@deckdeckgo/charts": "^2.0.1",
+    "@deckdeckgo/core": "^8.1.6",
+    "@deckdeckgo/deck-utils": "^4.0.1",
+    "@deckdeckgo/demo": "^2.0.1",
+    "@deckdeckgo/drag-resize-rotate": "^2.0.1",
+    "@deckdeckgo/highlight-code": "^3.0.2",
+    "@deckdeckgo/kit": "^4.0.0",
+    "@deckdeckgo/laser-pointer": "^1.0.1",
+    "@deckdeckgo/lazy-img": "^3.0.0",
+    "@deckdeckgo/markdown": "^2.0.2",
+    "@deckdeckgo/math": "^2.0.3",
+    "@deckdeckgo/qrcode": "^2.0.1",
+    "@deckdeckgo/remote": "^2.0.1",
+    "@deckdeckgo/reveal": "^2.0.0",
+    "@deckdeckgo/slide-aspect-ratio": "^3.3.0",
+    "@deckdeckgo/slide-author": "^2.3.0",
+    "@deckdeckgo/slide-chart": "^2.3.0",
+    "@deckdeckgo/slide-content": "^2.4.0",
+    "@deckdeckgo/slide-gif": "^3.3.0",
+    "@deckdeckgo/slide-playground": "^2.3.0",
+    "@deckdeckgo/slide-poll": "^2.3.0",
+    "@deckdeckgo/slide-qrcode": "^2.3.0",
+    "@deckdeckgo/slide-split": "^2.3.0",
+    "@deckdeckgo/slide-title": "^2.3.0",
+    "@deckdeckgo/slide-utils": "^4.0.0",
+    "@deckdeckgo/slide-youtube": "^2.3.0",
+    "@deckdeckgo/social": "^4.0.0",
+    "@deckdeckgo/utils": "^2.0.0",
+    "@deckdeckgo/word-cloud": "^1.0.5",
+    "@deckdeckgo/youtube": "^2.0.1",
+    "@ionic/core": "^5.6.7",
+    "web-social-share": "^7.1.0"
+  },
+  "keywords": [
+    "deckdeckgo",
+    "ionic",
+    "stencil",
+    "stenciljs",
+    "web components",
+    "pwa",
+    "progressive web app",
+    "presentation",
+    "slides",
+    "slideshow",
+    "talk"
+  ]
+}
