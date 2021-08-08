@@ -2,7 +2,7 @@
 
 Una forma interactiva de entender la complejidad 
 
-## Table of contents
+######## Table of contents
 
 - [Slides](#slides)
 - [Usage](#usage)
